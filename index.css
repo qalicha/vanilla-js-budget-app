@@ -1,0 +1,128 @@
+header{
+    width: 100%;
+    height: 50px;
+    box-shadow: 2px 1px 0px 0px black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(149, 121, 175);
+}
+body{
+    background-color: azure;
+    min-height: 100vh;
+}
+.container{
+ display: flex;
+ width: 70%;
+ height: 300px;
+ justify-content: space-between;
+ margin-left: 15%;
+ margin-right: 15%;
+ margin-top: 15px;
+ margin-bottom: 30%;
+}
+.balance-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+    width: 300px;
+    font-size: 20px;
+    height:80px ;
+    background-color: red;
+    color:white;
+    padding: 25px;
+    margin-bottom: 5%;
+}
+.amount-expense{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+    width: 300px;
+    height:80px ;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+.current-amount{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+    width: 45%;
+    height: 100%;
+    background:orchid;
+    margin-bottom: 10%;
+}
+.expense{
+    width: 45%;
+    height: 100%;
+    background: oldlace;
+}
+.expense-list li{
+    display: flex;
+    width:300px ;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    /* background-color: black; */
+}
+.reset-btn{
+    border-radius: 10px;
+    width: 100px;
+    height:30px;
+}
+.budget-card{
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+
+}
+
+.budget-card p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.budget-card input{
+    width: 70%;
+    margin-left: 15%;
+}
+.budget-card button{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15%;
+    background-color:green;
+}
+.expense-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 10%;
+      padding: 10%;
+    
+    }
+    .expense-card div{
+          transition: 0.3s;
+    
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          margin-bottom: 5%;
+    }   
+    .expense-card div label{
+       
+        margin-bottom: 5%;
+  }   
+  .expense-card div p{
+       
+    text-align: center;
+}   
+.expense-card button{
+       
+    background-color: blue;
+}   
+footer{
+    margin-left: 15%;
+   
+}

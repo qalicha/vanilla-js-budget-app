@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>expense tracker</title>
+</head>
+<body>
+    <header>
+        <h1>Budget app</h1>
+    </header>
+    <div class="container">
+        <div class="section-1">
+            <div class="dashboard">
+                <h1>Dashboard</h1>
+                <p>Welcome, jonas</p>
+            </div>
+            <div class="balance-card">your balance is ksh 0</div>
+            <div class="amount-expense">
+                <div class="current-amount"> Current Amount: ksh 0</div>
+                <div class="expense"> Expense: ksh 0</div>
+            </div>
+            <div class="expense-list">
+                <!-- <li><div class="title-desc"><p class="title">shop</p>
+                    <p class="description">buy soap</p></div>
+                    <div class="amt-date"><p class="amount">0</p>
+                        <p class="date"> 12/01/2023</p></div>
+                        <div class="update-delete-btn"><button class="update-btn">update</button>
+                            <button class="delete-btn">delete</button></div>
+                    
+                </li> -->
+            </div>
+        </div>
+        <div class="section-2">
+            <button class="reset-btn">Reset</button>
+            <div class="budget-card">
+                <p>Budget</p>
+                <input class="income">
+                <button class="add-budget-btn">Add budget</button>
+            </div>
+            <div class="expense-card">
+                <div >
+                    <p>Add Expense</p>
+                     <label for="name">
+                    Expense title: <input type="text" id="name" name="user_name" class="expense-title"/>
+                  </label>
+                  <label for="name">
+                    Expense Description: <input type="text" id="name" name="user_name" class="expense-desc"/>
+                  </label>
+                  <label for="name">
+                    Expense Amount: <input type="text" id="name" name="user_name" class="expense-amt" />
+                  </label>
+                  <label for="name">
+                    Current Date: <input type="date" id="name" name="user_name" class="date"/>
+                  </label></div>
+               
+                <button class="add-expense-btn">Add expense</button>
+                <button class="update-expense-btn">Update expense</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <!-- <div class="section-copyright">Copyright © 2023 - All right reserved </div> -->
+        
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
+
