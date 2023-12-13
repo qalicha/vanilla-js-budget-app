@@ -85,6 +85,7 @@ addExpense()
 function displayData(){
     let incomeAmount=getdatafromStorage('incomekey')
     let data=JSON.parse(getdatafromStorage('expenses'))
+    console.log(data)
     let totalExpense=data.reduce((n, {amount}) =>n + Number(amount), 0)
     
     let curramt=getdatafromStorage('curramt')
