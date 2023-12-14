@@ -15,7 +15,13 @@ let expenseDate=document.querySelector('.date')
 
 let incomekey
 let incomeState
-displayData()
+if (getdatafromStorage('expenses') === null) {
+    return
+  }
+  else{
+    displayData()
+  }
+
 document.querySelector('.add-budget-btn').addEventListener('click',function(){
     balance.innerHTML=`your balance is ksh ${Number(income.value)}}`
     currentAmount.innerHTML=`current amount ksh ${Number(income.value)}`
