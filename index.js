@@ -217,6 +217,7 @@ document.querySelector('.update-expense-btn').addEventListener('click',function(
         currentAmount.innerHTML= `current amount: ksh 0 `
         balance.innerHTML = `Your balance is ksh 0 `
         listContainer.innerHTML = ''
+        localStorage.clear()
 
     })
 
