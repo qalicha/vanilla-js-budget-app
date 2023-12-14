@@ -1,2 +1,3 @@
 budget app using vanilla javascript with local storage
-link:js-budget-app-with-localstorage.netlify.app
+
+link: https://js-budget-app-with-localstorage.netlify.app
